@@ -1,0 +1,23 @@
+modLoader="javafml" #mandatory
+loaderVersion="[34,)" #mandatory
+license="MIT License"
+[[mods]] #mandatory
+	modId="expmachine" #mandatory
+	version="${version}" #mandatory
+	displayName="Exp Machine" #mandatory
+	description='''FE -> EXP''' #mandatory
+	authors="ikrki"
+
+[[dependencies.expmachine]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.expmachine]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16,1.17)"
+    ordering="NONE"
+    side="BOTH"
